@@ -1,14 +1,5 @@
 #include <iostream>
 
-int main()
-{
-    std::cout << "Hello World\n";
-
-    /*
-    C++ contains capabilities that allow programmers to create their own data types. 
-    These data types are called 'user-defined data types'.
-    */
-
     /*-------------------------------------
                     enum
     ---------------------------------------*/
@@ -28,10 +19,6 @@ int main()
         color_magenta,// there can be a comma after the last enumerator, but there doesn't have to be a comma
 
     };// however the enum itself must end with a semicolon
-
-    Color paint = color_white;
-    Color house(color_blue);
-    Color apple { color_red };
 
     /*-------------------------------------
         What are enumerators useful for?
@@ -61,6 +48,37 @@ int main()
         
         return success;
     }
+    /*
+    This is much easier to read and understand than using magic number return values.
+    Many languages use Enumerations to define booleans. A boolean is essentially just an enumeration 
+    with 2 enumerators: false and true! However, in C++, true and false are defined as keywords 
+    instead of enumerators.
+    */
+
+int main()
+{
+    std::cout << "Hello World\n";
+
+    /*
+    C++ contains capabilities that allow programmers to create their own data types. 
+    These data types are called 'user-defined data types'.
+    */
+
+    /*-------------------------------------
+                    enum
+    ---------------------------------------*/
+
+    Color paint = color_white;
+    Color house(color_blue);
+    Color apple { color_red };
+
+    /*-------------------------------------
+        What are enumerators useful for?
+    ---------------------------------------*/
+    /*
+    Enumerated types are incredibly useful for code documentation and readability purposes when 
+    you need to represent a specific, predefined set of states.
+    */
     /*
     This is much easier to read and understand than using magic number return values.
     Many languages use Enumerations to define booleans. A boolean is essentially just an enumeration 
