@@ -205,14 +205,43 @@ int main()
     /*---------------------------------------------------
             Struct size and data structure alignment
     ---------------------------------------------------*/
-    
+    /*---------------------------------------------------
+            Accessing structs across multiple files
+    ---------------------------------------------------*/
+    /*---------------------------------------------------
+                    Final notes on structs
+    ---------------------------------------------------*/
+    /*
+    Structs are very important in C++, as understanding structs is the first major step 
+    towards object-oriented programming!  Later on in these tutorials, you’ll learn about another 
+    aggregate data type called a class, which is built on top of structs. Understanding structs 
+    well will help make the transition to classes that much easier.
+    */
 
+    /*---------------------------------------------------
+                        Quiz time
+    ---------------------------------------------------*/
+    /*
+    Question #1
 
+    You are running a website, and you are trying to keep track of how much money you make per 
+    day from advertising. Declare an advertising struct that keeps track of how many ads you’ve 
+    shown to readers, what percentage of ads were clicked on by users, and how much you earned on 
+    average from each ad that was clicked. Read in values for each of these fields from the user. 
+    Pass the advertising struct to a function that prints each of the values, and then calculates 
+    how much you made for that day (multiply all 3 fields together).
+    */
+    //go see Question1.cpp
 
+    /*
+    Question #2
 
-
-
-
-
+    Create a struct to hold a fraction. The struct should have an integer 
+    numerator and an integer denominator member. Declare 2 fraction variables and 
+    read them in from the user. Write a function called multiply that takes both 
+    fractions, multiplies them together, and returns the result as a decimal number. 
+    You do not need to reduce the fraction to its lowest terms. Print the result of 
+    the multiplication of the 2 fraction variables.
+    */
     return 0;
 }
