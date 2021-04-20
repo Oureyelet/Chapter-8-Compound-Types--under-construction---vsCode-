@@ -51,6 +51,38 @@ int main()
     /*-----------------------------------------------------
                 std::rand() is a mediocre PRNG
     -----------------------------------------------------*/
+
+    /*-----------------------------------------------------
+            Debugging programs that use random numbers
+    -----------------------------------------------------*/
+
+    /*-----------------------------------------------------
+            Better random numbers using Mersenne Twister
+    -----------------------------------------------------*/
+    /*
+    Here’s a short example showing how to generate random numbers in C++11 using Mersenne 
+    Twister (h/t to user Fernando):
+    */
+    //go see: Mersenne Twister.cpp
+
+    /*-----------------------------------------------------
+            Random numbers across multiple functions
+    -----------------------------------------------------*/
+    //go see: PRNG multiple files.cpp
+
+    /*-----------------------------------------------------
+                    Using a random library
+    -----------------------------------------------------*/
+    // Effolkronium’s random library. 
+
+    /*-----------------------------------------------------
+                    Using a random library
+    -----------------------------------------------------*/
+
+
+
+
+
     
 
 
