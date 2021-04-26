@@ -23,9 +23,9 @@ int main()
         apple
     };
 
-    Color color { Color::red };
+    Color whats_color_is { Color::red };
     //red is not directly accessible any more, we have to use Color::red
-    Fruit fruit { Fruit::banana };
+    Fruit what_fruit_is { Fruit::banana };
     // note: banana is not directly accessible any more, we have to use Fruit::banana
 
     return 0;
